@@ -1,0 +1,261 @@
+:root {
+    --brand-color: #2196F3;
+    --text-color: #757575;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color:#FFFFFF;
+}
+/* ------------------------------Хедер */
+.header {
+background-color: #FFFFFF;
+}
+.logo {
+font-family: 'Raleway', sans-serif;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+color: var(--brand-color);
+}
+
+.header-logo {
+color: #000000;
+}
+/*---------------------- лінк ліст */
+.link {
+text-decoration: none;
+}
+.list {
+list-style: none;
+}
+/*---------------------- навігація */
+.navigation-link {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: #212121;
+}
+.navigation-link:hover, 
+.navigation-link:focus
+ {
+color: var(--brand-color);
+ }
+
+.item-mail {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: var(--text-color);
+}
+.item-mail:hover,
+.item-mail:focus{
+color: var(--brand-color);
+}
+
+.item-tel {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: var(--text-color);
+}
+.item-tel:hover,
+.item-tel:focus
+{color: var(--brand-color);
+}
+
+.navigation-link.current {
+    color: var(--brand-color);
+}
+
+/*------------------------------ ГЕРОЙ */
+
+.hero {
+ background: #2F303A;
+}
+.hero-title {
+font-weight: 900;
+font-size: 44px;
+line-height: calc(60 / 44);
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+
+.hero-btn {
+font-family: inherit;
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: calc(30 / 16);
+letter-spacing: 0.06em;
+color: #FFFFFF;
+width: 216px;
+height: 50px;
+left: 692px;
+top: 430px;
+cursor: pointer;
+background: var(--brand-color);
+}
+
+.hero-btn:hover, .hero-btn:focus{
+background-color: rgb(8, 117, 219);
+}
+
+/*------------------------------ ПЕРЕВАГИ */
+.visually-hidden {
+ position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+.preference-subtitle {
+font-size: 14px;
+line-height: calc(16 / 14);
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #212121;
+}
+.preference-text {
+font-size: 14px;
+line-height: calc(24 / 14);
+letter-spacing: 0.03em;
+color: var(--text-color);
+}
+
+/* -----------------------------ЗАЙНЯТІСТЬ */
+.work-title {
+font-size: 36px;
+line-height: calc(42 / 36);
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+
+/* ------------------------------КОМАНДА */
+.team {
+background: #F5F4FA;
+}
+.team-title {
+font-size: 36px;
+line-height:calc(42 / 36);
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+
+.team-subtitle {
+font-weight: 500;
+font-size: 16px;
+line-height: calc(19 / 16);
+letter-spacing: 0.03em;
+color: #212121;
+}
+.team-text {
+font-size: 16px;
+line-height: calc(19 / 16);
+letter-spacing: 0.03em;
+color: var(--text-color);
+}
+
+/* ____________________________ФУТЕР */
+
+.footer {
+background: #2F303A;;
+}
+.logo-link-footer {
+font-family: 'Raleway', sans-serif;
+font-size: 26px;
+line-height: calc(31 / 26);
+letter-spacing: 0.03em;
+color: var(--brand-color);
+}
+.footer-logo {
+color: #FFFFFF;
+}
+
+.address-map {
+font-size: 14px;
+line-height: calc(24 / 14);
+letter-spacing: 0.03em;
+font-style: normal ;
+color: #FFFFFF;
+}
+
+.address-map,
+.address-tel,
+.address-mail
+{
+text-decoration: none;
+}
+
+.address-mail {
+font-style: normal;
+font-size: 14px;
+line-height: calc(24 / 14);
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+}
+.address-tel {
+font-style: normal;
+font-size: 14px;
+line-height: calc(24 / 14);
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+}
+.address-tel:hover,
+.address-tel:focus
+{
+color: var(--brand-color);
+}
+.address-mail:hover,
+.address-mail:focus
+{
+color: var(--brand-color);
+}
+
+/* =================================== */
+/* =========ПОРТФОЛІО ХТМЛ============ */
+/* =================================== */
+
+.filtr-btn {
+font-family: inherit;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: calc(26/16);
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+background: #F5F4FA;
+border-radius: 4px;
+cursor: pointer;
+}
+.btn:hover,
+.btn:focus
+{color: #FFFFFF;
+background-color: var(--brand-color);}
+
+/* список 2 */
+.p-projects-title {
+font-size: 18px;
+line-height: calc(36 / 18);
+letter-spacing: 0.06em;
+color: #212121;
+}
+.p-projects-text {
+font-size: 16px;
+line-height: calc(30/16);
+letter-spacing: 0.03em;
+color: #757575;
+}
