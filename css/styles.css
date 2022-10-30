@@ -41,6 +41,7 @@ img {
 /* ------------------------------Хедер */
 .header {
   background-color: #ffffff;
+   border-bottom: 1px solid #ececec;
 }
 .logo {
   font-family: "Raleway", sans-serif;
@@ -57,7 +58,6 @@ img {
 .heder-container {
   display: flex;
   align-items: center;
-  border-bottom: 1px solid #ececec;
 }
 
 /*---------------------- навігація */
@@ -197,7 +197,7 @@ img {
 }
 .preference-list {
   display: flex;
-  text-align: center;
+  text-align: left;
   gap: 30px;
 }
 .preference-subtitle {
@@ -360,7 +360,7 @@ img {
   gap: 8px;
   align-items: center;
   justify-content: center;
-  margin-bottom: 34px;
+  margin-bottom: 50px;
 }
 
 .filtr-btn {
